@@ -13,5 +13,11 @@ public class Main {
 
         System.out.println(result1);
         System.out.println(result2);
+
+        int result3 = valA / valC * valD + valB;
+        int result4 = valA / (valC * (valD + valB));
+
+        System.out.println(result3);
+        System.out.println(result4);
     }
 }
